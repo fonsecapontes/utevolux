@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\utevolux\\Back\\Utevolux\\Utevolux.WebApi\\Utevolux.WebApi.csproj": {}
+    "C:\\utevolux\\Back\\Utevolux.WebApi\\Utevolux.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\utevolux\\Back\\Utevolux\\Utevolux.WebApi\\Utevolux.WebApi.csproj": {
+    "C:\\utevolux\\Back\\Utevolux.WebApi\\Utevolux.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\utevolux\\Back\\Utevolux\\Utevolux.WebApi\\Utevolux.WebApi.csproj",
+        "projectUniqueName": "C:\\utevolux\\Back\\Utevolux.WebApi\\Utevolux.WebApi.csproj",
         "projectName": "Utevolux.WebApi",
-        "projectPath": "C:\\utevolux\\Back\\Utevolux\\Utevolux.WebApi\\Utevolux.WebApi.csproj",
+        "projectPath": "C:\\utevolux\\Back\\Utevolux.WebApi\\Utevolux.WebApi.csproj",
         "packagesPath": "C:\\Users\\lucas.fonseca\\.nuget\\packages\\",
-        "outputPath": "C:\\utevolux\\Back\\Utevolux\\Utevolux.WebApi\\obj\\",
+        "outputPath": "C:\\utevolux\\Back\\Utevolux.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,32 +43,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
