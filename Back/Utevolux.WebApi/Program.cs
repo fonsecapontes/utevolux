@@ -14,14 +14,17 @@ builder.Services.AddDbContext<UtevoLuxDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddTransient<ICreatureRepository, CreatureRepository>();
+builder.Services.AddTransient<ICreatureRepository, CreatureRepository>()
+                .AddTransient<IMountRepository, MountRepository>();
 
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
     var UtevoLuxDbContext = scope.ServiceProvider.GetRequiredService<UtevoLuxDbContext>();
+    UtevoLuxDbContext.Database.EnsureDeleted();
     UtevoLuxDbContext.Database.EnsureCreated();
+    UtevoLuxDbContext.Seed();
 }
 
 // Configure the HTTP request pipeline.

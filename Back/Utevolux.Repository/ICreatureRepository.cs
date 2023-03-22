@@ -3,5 +3,6 @@
     public interface ICreatureRepository
     {
         Task<List<CreatureEntity>> GetCreatures();
+        Task<List<CreatureEntity>> GetBosses();
     }
 }

@@ -12,6 +12,7 @@ namespace Utevolux.Repository
         }
 
         public DbSet<CreatureEntity> Creature { get; set; } = null!;
+        public DbSet<MountEntity> Mount { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

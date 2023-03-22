@@ -2,10 +2,10 @@
 
 <div class="card-container">
     <a class="card" *ngFor="let creature of creatures">
-        <img [src]="creature.img" />
+        <img [src]="getImage(creature)" [alt]="creature.name" />
         <span>{{creature.name}}</span>
-        <mat-slider showTickMarks>
+        <!-- <mat-slider showTickMarks>
             <input matSliderThumb>
-        </mat-slider>
+        </mat-slider> -->
     </a>
 </div>
