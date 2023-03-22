@@ -4,6 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MatIconModule } from '@angular/material/icon'
 import { BestiaryModule } from './components/bestiary/bestiary.module';
+import { BosstiaryModule } from './components/bosstiary/bosstiary.module';
+import { MountsModule } from './components/mounts/mounts.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { BestiaryModule } from './components/bestiary/bestiary.module';
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
-    BestiaryModule
+    BestiaryModule,
+    BosstiaryModule,
+    MountsModule
   ],
   providers: [],
   bootstrap: [

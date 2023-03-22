@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { CreatureService } from 'src/app/services/creature.service';
 
 @Component({
-    selector: 'app-bestiary',
-    templateUrl: './bestiary.component.html',
+    selector: 'app-bosstiary',
+    templateUrl: './bosstiary.component.html',
 })
-export class BestiaryComponent implements OnInit {
+export class BosstiaryComponent implements OnInit {
     creatures = new Array<any>();
 
     constructor(private creatureService: CreatureService) {
@@ -13,7 +13,7 @@ export class BestiaryComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.creatureService.getCreatures().subscribe((res: any) => {
+        this.creatureService.getBosses().subscribe((res: any) => {
             this.creatures = res;
         })
     }

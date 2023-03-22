@@ -1,0 +1,11 @@
+<h1>Bestiary</h1>
+
+<div class="card-container">
+    <a class="card" *ngFor="let creature of creatures">
+        <img [src]="creature.img" />
+        <span>{{creature.name}}</span>
+        <mat-slider showTickMarks>
+            <input matSliderThumb>
+        </mat-slider>
+    </a>
+</div>

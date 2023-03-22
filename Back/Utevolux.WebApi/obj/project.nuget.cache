@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "TWdaLIfdGXIJ9KX5bk65V07AeR0XzyKz4ZJsUuU9xthWUfWuYssq3Ie7jZzgOKK4eStWd1ftzG3Kd7pAB5kV4g==",
+  "dgSpecHash": "ykTi/WtEm+/aRP3FvmTixAWghADLhrQqO+QugSsZT7HGBjArBL+krjRv/7yDqNGQAeH38pTk8mJumMn5i+qgHQ==",
   "success": true,
   "projectFilePath": "C:\\utevolux\\Back\\Utevolux.WebApi\\Utevolux.WebApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas.fonseca\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\lucas.fonseca\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\lucas.fonseca\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\lucas.fonseca\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\lucas.fonseca\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\lucas.fonseca\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }

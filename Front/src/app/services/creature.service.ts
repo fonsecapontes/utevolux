@@ -5,7 +5,11 @@ import { HttpClient } from '@angular/common/http';
 export class CreatureService {
   constructor(private http: HttpClient) { }
 
-  get() {
-    return this.http.get("https://localhost:7076/Creatures");
+  getCreatures() {
+    return this.http.get("https://localhost:7076/creatures");
+  }
+
+  getBosses() {
+    return this.http.get("https://localhost:7076/creatures/bosses");
   }
 }
