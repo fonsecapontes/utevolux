@@ -1,13 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CreatureService } from 'src/app/services/creature.service';
 
 @Component({
     selector: 'app-bestiary',
     templateUrl: './bestiary.component.html',
 })
-export class BestiaryComponent {
-    creatures = [
-        { name: 'Acid blob', img: 'https://www.tibiawiki.com.br/images/e/e9/Filth_Toad.gif' },
-        { name: 'Acolytes Of The Cult', img: 'https://www.tibiawiki.com.br/images/e/e9/Filth_Toad.gif' },
-        { name: 'Adepts Of The Cult', img: 'https://www.tibiawiki.com.br/images/e/e9/Filth_Toad.gif' },
-    ]
+export class BestiaryComponent implements OnInit {
+    creatures = new Array<any>();
+
+    constructor(private creatureService: CreatureService) {
+
+    }
+
+    ngOnInit(): void {
+        this.creatureService.get().subscribe((res: any) => {
+            console.log(res);
+
+            this.creatures = res;
+        })
+    }
 }
