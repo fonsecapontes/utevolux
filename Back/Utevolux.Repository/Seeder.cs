@@ -28,21 +28,22 @@ namespace Utevolux.Repository
                 }
 
                 salesContext.AddRange(bosses);
-
-                salesContext.SaveChanges();
             }
 
             if (!salesContext.Mount.Any())
             {
-                var creatures = new List<MountEntity>()
+                string json = File.ReadAllText("../mounts_data.json");
+                var mounts = JsonConvert.DeserializeObject<List<MountEntity>>(json);
+
+                foreach (var mount in mounts)
                 {
-                    new MountEntity() {Name = "Mount 1", Image = "https://www.tibiawiki.com.br/images/e/e9/Filth_Toad.gif"},
-                    new MountEntity() {Name = "Mount 2", Image = "https://www.tibiawiki.com.br/images/e/e9/Filth_Toad.gif"},
-                    new MountEntity() {Name = "Mount 3", Image = "https://www.tibiawiki.com.br/images/e/e9/Filth_Toad.gif"}
-                };
-                salesContext.AddRange(creatures);
-                salesContext.SaveChanges();
+                    mount.Image = mount.Name.Replace(" ", "_") + ".gif";
+                }
+
+                salesContext.AddRange(mounts);
             }
+
+            salesContext.SaveChanges();
         }
     }
 }

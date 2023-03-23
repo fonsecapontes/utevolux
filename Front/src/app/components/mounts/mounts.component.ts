@@ -6,7 +6,7 @@ import { MountsService } from 'src/app/services/mounts.service';
     templateUrl: './mounts.component.html',
 })
 export class MountsComponent implements OnInit {
-    creatures = new Array<any>();
+    mounts = new Array<any>();
 
     constructor(private mountsService: MountsService) {
 
@@ -14,7 +14,11 @@ export class MountsComponent implements OnInit {
 
     ngOnInit(): void {
         this.mountsService.get().subscribe((res: any) => {
-            this.creatures = res;
+            this.mounts = res;
         })
+    }
+
+    getImage(mount: any) {
+        return "/assets/images/mounts/" + mount.image;
     }
 }

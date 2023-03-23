@@ -1,9 +1,9 @@
 <h1>Mounts</h1>
 
 <div class="card-container">
-    <a class="card" *ngFor="let creature of creatures">
-        <img [src]="creature.image" />
-        <span>{{creature.name}}</span>
+    <a class="card" *ngFor="let mount of mounts">
+        <img [src]="getImage(mount)" [alt]="mount.name" />
+        <span>{{mount.name}}</span>
         <!-- <mat-slider showTickMarks>
             <input matSliderThumb>
         </mat-slider> -->

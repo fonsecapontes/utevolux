@@ -1,0 +1,410 @@
+[
+      {
+         "name":"Antelope",
+         "spoiler":"Trade 145,000 Hunting Task Points with Walter Jaeger.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Black Sheep",
+         "spoiler":"Use Reins on a Black Sheep.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Blazebringer",
+         "spoiler":"If you have lit all 10 basins on a successful Lightbearer event, you can ask Santa Claus for a very special present to receive this mount.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Blue Rolling Barrel",
+         "spoiler":"Use a Beer Tap on a Super Cask while having a Decorative Blue Sheet in your inventory.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Bright Percht Sleigh",
+         "spoiler":"Deliver a Percht Skull to Frosty.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Bright Percht Sleigh Variant",
+         "spoiler":"Ask Frosty to upgrade a Bright Percht Sleigh by delivering another Percht Skull to him.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Cold Percht Sleigh",
+         "spoiler":"Deliver a Percht Skull to Frosty.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Cold Percht Sleigh Variant",
+         "spoiler":"Ask Frosty to upgrade a Cold Percht Sleigh by delivering another Percht Skull to him.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Crystal Wolf",
+         "spoiler":"Use a Diapason on a Crystal Wolf.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Dark Percht Sleigh",
+         "spoiler":"Deliver a Percht Skull to Frosty.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Dark Percht Sleigh Variant",
+         "spoiler":"Ask Frosty to upgrade a Dark Percht Sleigh by delivering another Percht Skull to him.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Donkey",
+         "spoiler":"Use a Bag of Apple Slices on a creature transformed into Donkey.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Dragonling",
+         "spoiler":"Use Decorative Ribbon or Music Box on a Dragonling.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Draptor",
+         "spoiler":"Use a Harness or a Music Box on a Draptor.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Dromedary",
+         "spoiler":"Use a Fist on a Stick on a Dromedary.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Finished Bright Percht Sleigh",
+         "spoiler":"Ask Frosty to upgrade a Bright Percht Sleigh Variant by delivering another Percht Skull to him.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Finished Cold Percht Sleigh",
+         "spoiler":"Ask Frosty to upgrade a Cold Percht Sleigh Variant by delivering another Percht Skull to him.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Finished Dark Percht Sleigh",
+         "spoiler":"Ask Frosty to upgrade a Dark Percht Sleigh Variant by delivering another Percht Skull to him.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Fleeting Knowledge",
+         "spoiler":"Use a Library Ticket on a Flying Book.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Giant Beaver",
+         "spoiler":"Use a Colourful Water Lily on a Giant Beaver.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Glooth Glider",
+         "spoiler":"Obtain its 7 parts, finish 4 tasks of the Oramond Quest and then talk to NPC Peremin.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Gloothomotive",
+         "spoiler":"Use a Wind-Up Key on a Wind-Up Loco.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Gnarlhound",
+         "spoiler":"Use a Golem Wrench on a Modified Gnarlhound.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Green Rolling Barrel",
+         "spoiler":"Use a Beer Tap on a Super Cask while having a Decorative Green Sheet in your inventory.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Gryphon",
+         "spoiler":"Use The Regalia of Suon on a Gryphon while wearing a Gryphon Mask.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Haze",
+         "spoiler":"Use a Spectral Scrap of Cloth.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Hibernal Moth",
+         "spoiler":"Use a Purple Tendril Lantern on a Hibernal Moth.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Ironblight",
+         "spoiler":"Use an Iron Loadstone or a Music Box on an Ironblight.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Kingly Deer",
+         "spoiler":"Use a Golden Fir Cone or a Music Box on an Enraged White Deer.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Krakoloss",
+         "spoiler":"Defeat Tentugly's Head during A Pirate's Tail Quest.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Lacewing Moth",
+         "spoiler":"Use a Turquoise Tendril Lantern on a Lacewing Moth.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Lady Bug",
+         "spoiler":"Use a Four-Leaf Clover on a Ladybug",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Magma Crawler",
+         "spoiler":"Use Glow Wine or a Music Box on a Magma Crawler.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Manta Ray",
+         "spoiler":"Use a Foxtail on a Manta Ray.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Midnight Panther",
+         "spoiler":"Use a Leather Whip or a Music Box on a Midnight Panther.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Mole",
+         "spoiler":"Use a Candle Stump on a Mole.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Mutated Abomination",
+         "spoiler":"Use the lever in the room south of Geoffray in Doctor Marrow's laboratory after defeating The Monster.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Neon Sparkid",
+         "spoiler":"Use a Crackling Egg.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Noble Lion",
+         "spoiler":"Use The Lion's Heart on a Noble Lion.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Phant",
+         "spoiler":"Trade 8000 Drome points with a Tibiadrome NPC.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Phantasmal Jade",
+         "spoiler":"Use 4 Spectral Horseshoes, a Spectral Horse Tack and a Spectral Saddle after completing the Soul War Quest.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Racing Bird",
+         "spoiler":"Use a Carrot on a Stick on a Terror Bird.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Rapid Boar",
+         "spoiler":"Use a Hunting Horn on a Boar.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Red Rolling Barrel",
+         "spoiler":"Use a Beer Tap on a Super Cask while having a Decorative Red Sheet in your inventory.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Rift Runner",
+         "spoiler":"Using a Mysterious Scroll.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Ripptor",
+         "spoiler":"Unlock hazard level 6 in Gnomprona and request the mount to Gnomadness.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Scorpion King",
+         "spoiler":"Use a Scorpion Sceptre on a Sandstone Scorpion.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Shellodon",
+         "spoiler":"Deliver an Eldritch Crystal to Gnomevisor.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Shock Head",
+         "spoiler":"Use a Nightmare Horn on a Shock Head.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Singeing Steed",
+         "spoiler":"Use 4 Fiery Horseshoes.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Sparkion",
+         "spoiler":"Use a Vibrant Egg.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Stampor",
+         "spoiler":"Give 30 Hollow Stampor Hoof, 50 Stampor Horn and 100 Stampor Talons to Chondur in Meriana.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Stone Rhino",
+         "spoiler":"Use an Astral Shaper Rune on a Stone Rhino.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Tamed Panda",
+         "spoiler":"Use Bamboo Leaves or a Music Box on a Panda.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"The Hellgrip",
+         "spoiler":"Use a Nail Case on a Gravedigger.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Tiger Slug",
+         "spoiler":"Use a Slug Drug on a Slug.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Tin Lizzard",
+         "spoiler":"Use a Tin Key on a stationary Tin Lizzard.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Titanica",
+         "spoiler":"Use a Giant Shrimp on a Crustacea Gigantica.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Undead Cavebear",
+         "spoiler":"Use a Maxilla Maximus on an Undead Cavebear.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Uniwheel",
+         "spoiler":"Use a Golden Can of Oil on a stationary Uniwheel.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Ursagrodon",
+         "spoiler":"Use a Melting Horn on a Half-Frozen Ursagrodon.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Vortexion",
+         "spoiler":"Use a Menacing Egg.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Walker",
+         "spoiler":"Use a Control Unit on a Walker.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"War Bear",
+         "spoiler":"Use a Slingshot on a Bear.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"War Horse",
+         "spoiler":"Use Sugar Oat or a Music Box on a Wild Horse.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Water Buffalo",
+         "spoiler":"Use Leech on a Water Buffalo.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"White Lion",
+         "spoiler":"Use a Red Silk Flower on one of the White Lions at the entrance of the Lion Sanctum.",
+         "checked":false,
+         "bought_in_store":0
+      },
+      {
+         "name":"Widow Queen",
+         "spoiler":"Use Sweet Smelling Bait or a Music Box on a Wailing Widow.",
+         "checked":false,
+         "bought_in_store":0
+      }
+   ]
