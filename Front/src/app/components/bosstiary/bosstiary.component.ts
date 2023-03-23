@@ -17,4 +17,8 @@ export class BosstiaryComponent implements OnInit {
             this.creatures = res;
         })
     }
+
+    getImage(creature: any) {
+        return "/assets/images/creatures/bosses/" + creature.image;
+    }
 }

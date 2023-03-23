@@ -8,7 +8,7 @@ namespace Utevolux.Repository
         {
             if (!salesContext.Creature.Any())
             {
-                string json = File.ReadAllText("../data.json");
+                string json = File.ReadAllText("../creatures_data.json");
                 var creatures = JsonConvert.DeserializeObject<List<CreatureEntity>>(json);
 
                 foreach (var creature in creatures)
@@ -17,6 +17,18 @@ namespace Utevolux.Repository
                 }
 
                 salesContext.AddRange(creatures);
+
+                json = File.ReadAllText("../bosses_data.json");
+                var bosses = JsonConvert.DeserializeObject<List<CreatureEntity>>(json);
+
+                foreach (var boss in bosses)
+                {
+                    boss.Image = boss.Name.Replace(" ", "_") + ".gif";
+                    boss.Boss = true;
+                }
+
+                salesContext.AddRange(bosses);
+
                 salesContext.SaveChanges();
             }
 
